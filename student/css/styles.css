@@ -1,0 +1,53 @@
+body{
+    background-color: lavender;
+}
+h1, h2, h3{
+    margin: auto;
+    padding: 8px;
+    text-align: center;
+}
+h1{
+    font-size: 40px;
+    text-shadow: 3px 2px darkgray;
+}
+td, tr, th, table {
+    margin: auto;
+    padding: 8px;
+    text-align: left;
+}
+
+.topmenu{
+    width: 100%;
+}
+.menuGomb:hover{
+    background-color: #18ffb5;
+    cursor: pointer;
+    color: #020339;
+}
+.menuGomb{
+    background-image: linear-gradient(to left, violet, dodgerblue, greenyellow, yellow, orange, red);
+    width: 33%;
+    text-align: center;
+    text-transform: uppercase;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.mainImgTable{
+    margin: auto;
+    padding: 8px;
+    text-align: center;
+}
+.mainTable{
+    padding: 8px;
+    margin: auto;
+    text-align: center;
+}
+.spaceTh {
+    width: 220px;
+}
+.container{
+    border: 1px solid purple;
+    background-color: palegoldenrod;
+    color: #3c003c;
+}

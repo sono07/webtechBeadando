@@ -1,0 +1,24 @@
+<div>
+    <h1 id="addManufacturer"> Gyártó hozzáadás</h1>
+    <h3 id="manufacturerText">Itt található az eddigi adatbázis a gyártókról, illetve ugyanitt hozzáadható új gyártó is!</h3>
+    <form id="manufacturerForm">
+        <table>
+            <tr>
+                <td>Gyártó neve</td><td><input type="text" name="name" required id="name"/></td>
+            </tr>
+            <tr>
+                <td>Ország</td><td><input type="text" required name="country" id="country"/></td>
+            </tr>
+            <tr>
+                <td>Alapítva</td><td><input type="date" required name="founded" id="founded"/></td>
+            </tr>
+            <tr>
+                <td><button class="submitGomb" type="submit">Hozzáadás</button></td>
+            </tr>
+        </table>
+    </form>
+</div>
+<div>
+    <table class="container" id="manufacturerContainer">
+    </table>
+</div>

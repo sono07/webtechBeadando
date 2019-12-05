@@ -1,0 +1,29 @@
+<div>
+    <h1 id="addCar">Autó hozzáadás</h1>
+    <h3 id="carText">Ezen az oldalon látható a jelenlegi adatbázis az autókról, valamint új autó hozzáadására is van lehetőség.</h3>
+    <form id="carForm">
+        <table>
+            <tr>
+                <td>Típus</td><td><input type="text" name="name" required id="name"/></td>
+                <td>Fogyasztás</td><td><input type="text" required name="consumption" id="consumption"/></td>
+            </tr>
+            <tr>
+                <td>Szín</td><td><input type="text" required name="color" id="color"/></td>
+                <td>Gyártó</td><td><select type="text" name="manufacturer" required id="manufacturerSelector"/></td>
+            </tr>
+            <tr>
+                <td>Elérhető darabszám</td><td><input type="number" required name="available" id="available"/></td>
+                <td>Gyártási év</td><td><input type="number" required name="year" id="year"/></td>
+            </tr>
+            <tr>
+                <td>Lóerő</td><td><input type="number" required name="horsepower" id="horsepower"/></td>
+                <td></td>
+                <td><button class="submitGomb" type="submit">Hozzáadás</button></td>
+            </tr>
+        </table>
+    </form>
+</div>
+<div>
+    <table class="container" id="carContainer">
+    </table>
+</div>
